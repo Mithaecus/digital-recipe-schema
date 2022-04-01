@@ -1,0 +1,30 @@
+{
+    "meta": {
+        "yield": Number,
+        "cook": Number,
+        "prep": Number,
+        "total": Number
+    },
+    "ingrediants": [
+        {
+            "name": Ingrediant,
+            "weight": Number,
+            "measurement": Measurement
+        }
+    ],
+    "items": [
+        {
+            "name": Item,
+            "size": Measurement
+        }
+    ],
+    "directions": [
+        {
+            "step": Number,
+            "method": CookingMethod,
+            "ingrediants": [ Ingrediant ],
+            "items": [ Item ],
+            "time": Number
+        }
+    ]
+}
